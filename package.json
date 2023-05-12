@@ -1,0 +1,14 @@
+{
+  "name": "festinafitnessdata2gpx",
+  "version": "0.0.1",
+  "description": "Convert Festina app fitness data to gpx",
+  "main": "convert.js",
+  "scripts": {
+    "convert": "node convert.js -input"
+  },
+  "author": "Balazs Suhajda",
+  "license": "ISC",
+  "dependencies": {
+    "xmlbuilder": "^15.1.1"
+  }
+}
